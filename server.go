@@ -11,7 +11,7 @@ func main() {
 	// Define the number of servers
 	var numServers int
 //	numServers := *flag.Int("n", 3 ,"num of server")
-	flag.IntVar(&numServers, "n", 3, "Port to serve")
+	flag.IntVar(&numServers, "n", 3, "number of demo servers to serve")
 	flag.Parse()
 
 	// Use a wait group to wait for all servers to start
